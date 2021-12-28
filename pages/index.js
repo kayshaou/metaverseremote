@@ -9,7 +9,7 @@ export default function Home() {
   if (!isAuthenticated) return <Login />
 
   return (
-    <div className="h-screen bg-gradient-to-b from-white to-pink-700" >
+    <div className="max-h-full bg-gradient-to-b from-white to-pink-700" >
       <Head>
         <title>Meta verse challenge</title>
         <link rel="icon" href="/favicon.ico" />

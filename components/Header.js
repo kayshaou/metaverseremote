@@ -5,7 +5,7 @@ import ChangeUsername from "./ChangeUsername";
 function Header() {
     const { user } = useMoralis();
     return (
-        <div className="sticky top-0 p-5 z-50 bg-white 
+        <div className="relative top-0 p-5 z-50 bg-transparent
         shadow-sm text-pink-500 border-b-2 
         border-pink-300">
             <div className="grid grid-cols-5 lg:grid-cols-6 items-end lg:items-center" >
